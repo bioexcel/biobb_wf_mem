@@ -1,0 +1,28 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://github.com/bioexcel/biobb_wf_protein-complex_md_setup",
+  "@type": "ItemList",
+  "name": "Protein membrane MD analysis workflow",
+  "itemListElement": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://raw.githubusercontent.com/bioexcel/biobb/master/references.jsonld",
+      "name": "biobb"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://raw.githubusercontent.com/bioexcel/biobb_io/master/references.jsonld",
+      "name": "biobb_io"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://raw.githubusercontent.com/bioexcel/biobb_analysis/master/references.jsonld",
+      "name": "biobb_analysis"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://raw.githubusercontent.com/bioexcel/biobb_mem/master/references.jsonld",
+      "name": "biobb_mem"
+    }
+  ]
+}

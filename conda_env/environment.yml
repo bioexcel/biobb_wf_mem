@@ -1,11 +1,11 @@
-name: biobb_wf_mem_an
+name: biobb_wf_mem
 channels:
   - conda-forge
   - bioconda
 dependencies:
-  - biobb_mem=5.1.1
-  - biobb_io
-  - biobb_analysis
+  - biobb_mem==5.2.0
+  - biobb_io==5.2.0
+  - biobb_analysis==5.2.0
   - anywidget
   - plotly
   - nglview
